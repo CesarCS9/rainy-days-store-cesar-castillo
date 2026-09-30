@@ -1,225 +1,100 @@
 # Rainy Days Store – JavaScript Course Assignment
 
-## Brief
+A fully interactive e-commerce website built with Vanilla JavaScript and dynamic data fetched from the Noroff Rainy Days API.
 
-This project is the final delivery for the JavaScript Course Assignment.
+## Description
 
-The goal of the assignment was to build a fully interactive e-commerce website using Vanilla JavaScript and data fetched dynamically from the Noroff Rainy Days API.
+This project was created as the final delivery for the JavaScript Course Assignment at Noroff.
 
-The project expands the original HTML & CSS version of Rainy Days by adding:
+The project expands the original HTML and CSS version of Rainy Days by adding dynamic functionality and API integration.
 
-* Dynamic product rendering
-* Product filtering
-* Product detail pages
-* Shopping cart functionality
-* Checkout flow
-* LocalStorage persistence
-* Dynamic order confirmation
-* API integration using async/await
+The website allows users to:
 
-The application was built using only:
+- Browse products dynamically fetched from the API
+- Filter and sort products
+- View individual product details
+- Browse men's and women's product categories
+- Add, remove and update products in the shopping cart
+- Store cart data using LocalStorage
+- Complete a simulated checkout process
+- Receive a dynamic order confirmation
 
-* HTML
-* CSS
-* Vanilla JavaScript
+## Built With
 
-No frameworks or external JavaScript libraries were used.
+- HTML
+- CSS
+- Vanilla JavaScript
+- Fetch API
+- LocalStorage
+- Flexbox
+- CSS Grid
+- Google Fonts
+- Font Awesome
+- Figma
 
----
+## Live Website
 
-# Live Site
-
-## Website
-
-[https://cesarcs9.github.io/rainy-days-store-cesar-castillo/index.html](https://cesarcs9.github.io/rainy-days-store-cesar-castillo/index.html)
+https://cesarcs9.github.io/rainy-days-store-cesar-castillo/index.html
 
 ## GitHub Repository
 
-[https://github.com/cesarcs9/rainy-days-store-cesar-castillo](https://github.com/cesarcs9/rainy-days-store-cesar-castillo)
+https://github.com/cesarcs9/rainy-days-store-cesar-castillo
 
-## Figma Prototype
+## Getting Started
 
-[https://www.figma.com/proto/SdYSl3CzFm0yc1jdNQyU4c/RainyDays-Prototype?node-id=0-1&t=eWKvicLWjdi5UrZc-1](https://www.figma.com/proto/SdYSl3CzFm0yc1jdNQyU4c/RainyDays-Prototype?node-id=0-1&t=eWKvicLWjdi5UrZc-1)
+### Installing
 
----
+Clone the repository:
 
-# Features
+```bash
+git clone https://github.com/cesarcs9/rainy-days-store-cesar-castillo.git
+```
 
-## Product Pages
+### Running
 
-* Dynamic product rendering from API
-* Single product detail pages
-* Related products section
-* Product category pages for men and women
-* Product sorting by price
+This project does not require any dependencies or installation.
 
-## Shopping Cart
+Open `index.html` in a browser to run the project locally.
 
-* Add products to cart
-* Remove products from cart
-* Increase product quantity
-* Persistent cart using LocalStorage
-* Dynamic cart badge
+You can also visit the live website:
 
-## Checkout Flow
+https://cesarcs9.github.io/rainy-days-store-cesar-castillo/index.html
 
-* Cart summary page
-* Payment page
-* Simulated checkout process
-* Order confirmation page with generated order details
+## Improvements
 
-## Additional Pages
+As part of Portfolio 1, the project was revisited and improved based on feedback received from the original course submission.
 
-* Privacy Policy
-* Terms of Use
+### Accessibility and Image Performance
 
----
+The project was improved by refining semantic HTML and heading structure, improving image alt text, removing inline styles and optimizing large image assets.
 
-# Requirements Covered
+These changes improve the structure, accessibility and loading performance of the website.
 
-* Fetch and display products dynamically from external API
-* Dynamic product detail pages
-* Shopping cart with LocalStorage persistence
-* Add and remove products from cart
-* Order summary calculations
-* Product filtering and sorting
-* Category-specific pages
-* Loading states during API requests
-* Error handling for failed API requests
-* Responsive layout for mobile, tablet and desktop
-* Semantic HTML structure
-* Accessibility considerations
+## AI Usage
 
----
-
-# Technical Decisions
-
-## Single JavaScript File Structure
-
-The project uses one main JavaScript file divided into logical sections:
-
-* DOM Elements
-* Fetch Functions
-* Render Functions
-* Filter Functions
-* Cart Functions
-* Form Functions
-* Init Section
-
-This structure improved readability and made debugging easier during development.
-
-## LocalStorage Cart System
-
-The shopping cart state is stored in LocalStorage to persist products and quantities while navigating between pages.
-
-## Category Pages
-
-Separate category pages were created for:
-
-* Men's Collection
-* Women's Collection
-
-These pages reuse the same rendering logic while applying category-specific filters.
-
-## Error Handling
-
-All fetch requests include:
-
-* Response validation
-* Try/catch blocks
-* User-facing error messages
-* Console debugging messages
-
-## Responsive Layout
-
-Flexbox and CSS Grid were used depending on layout needs.
-
-The website was tested across:
-
-* Mobile
-* Tablet
-* Desktop
-
-using Chrome DevTools.
-
----
-
-# Accessibility
-
-The project includes several accessibility considerations:
-
-* Semantic HTML
-* Alt text for images
-* Readable font sizes
-* Keyboard accessible forms and buttons
-* Sufficient color contrast
-* Proper heading hierarchy
-
----
-
-# Validation & Testing
-
-The project was tested using:
-
-* Chrome DevTools
-* W3C HTML Validator
-* Manual responsive testing
-* Console error testing
-* GitHub Pages deployment testing
-
-The final version:
-
-* Has no known console errors
-* Avoids horizontal scrolling
-* Maintains responsive layouts across devices
-
----
-
-# Tools & Technologies
-
-* HTML5
-* CSS3
-* Vanilla JavaScript
-* Flexbox
-* CSS Grid
-* LocalStorage API
-* Fetch API
-* Google Fonts
-* Font Awesome
-* GitHub
-* GitHub Pages
-* Chrome DevTools
-* Figma
-
----
-
-# API
-
-Data is fetched from the Noroff Rainy Days API:
-
-[https://v2.api.noroff.dev/rainy-days](https://v2.api.noroff.dev/rainy-days)
-
-API documentation:
-
-[https://docs.noroff.dev/docs/v2/e-commerce/rainy-days](https://docs.noroff.dev/docs/v2/e-commerce/rainy-days)
-
----
-
-# AI Usage
-
-Artificial Intelligence tools were used as learning support during development.
+AI tools were used only as learning support during development.
 
 AI assistance included:
 
-* Debugging help
-* JavaScript explanations
-* Project structure guidance
-* Documentation writing support
-* README formatting support
+- Debugging help
+- JavaScript explanations
+- Project structure guidance
+- Documentation writing support
 
 All code was reviewed, understood and manually integrated into the final project.
 
-A dedicated AI_LOG.md file is included in the repository.
+A dedicated `AI_LOG.md` file is included in the repository.
+
+## Author
+
+Cesar Andres Castillo Sanabria
+
+[GitHub](https://github.com/cesarcs9)
+
+## Acknowledgments
+
+- Noroff Front-end Development course
+
 
 
 
