@@ -1,4 +1,4 @@
-# Rainy Days Store – JavaScript Course Assignment
+# Rainy Days Store
 
 A fully interactive e-commerce website built with Vanilla JavaScript and dynamic data fetched from the Noroff Rainy Days API.
 
