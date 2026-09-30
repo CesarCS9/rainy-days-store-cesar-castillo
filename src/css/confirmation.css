@@ -61,3 +61,7 @@
 .confirmation-actions a:hover{
   background-color: #444444;
 }
+
+.confirmation-icon {
+    color: #51c62b;
+}

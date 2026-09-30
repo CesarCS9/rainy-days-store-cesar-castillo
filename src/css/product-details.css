@@ -161,7 +161,7 @@
   margin: 4rem auto;
   padding: 0 1.5rem;
 }
-.reviews h3{
+.reviews h2{
   border-bottom: 1px solid black;
   padding: 10px 0px 10px 0px;
 }
@@ -187,6 +187,11 @@
   gap: 0.5rem;
 }
 
+.user-reviews i,
+.review-likes i {
+    color: #111111;
+}
+
 .user-reviews p:last-child{
   font-weight: 700;
 }
@@ -209,4 +214,11 @@
 .review-meta {
   font-size: 0.8rem;
   color: black;
+}
+
+/* Error */
+
+#error {
+    text-align: center;
+    color: red;
 }

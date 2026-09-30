@@ -46,3 +46,15 @@
   object-fit: cover;
   background-color: #e6f0ff;
 }
+
+/* Mens product*/
+
+#loader {
+    text-align: center;
+    margin: 2rem;
+}
+
+#error {
+    text-align: center;
+    color: red;
+}

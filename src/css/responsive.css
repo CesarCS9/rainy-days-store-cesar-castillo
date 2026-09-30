@@ -83,8 +83,9 @@
     padding: 0 1rem;
   }
 
-  .models-showcase h3 {
+  .models-showcase h2 {
     margin: 2rem;
+    font-size: 1rem;
   }
 
   .cta-models {
@@ -442,7 +443,7 @@
     margin-top: 0.5rem;
   }
 
-  .footer-middle h4 {
+  .footer-middle h2 {
     margin-bottom: 0.8rem;
   }
 

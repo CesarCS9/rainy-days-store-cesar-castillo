@@ -113,6 +113,7 @@ form select {
 
 .payment-option i {
   font-size: 1.4rem;
+  color: #111111;
 }
 .card-inputs {
   border: none;
